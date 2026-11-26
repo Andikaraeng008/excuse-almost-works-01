@@ -2,11 +2,11 @@
 """The Excuse That Almost Works - writes the gamer excuse to /output/entry.txt.
 
 Gate: one line, at most 20 words, 1-140 characters, plain text, no signature.
-Excuse 4, 101 characters, 19 whitespace-separated tokens — within the 20-word gate under both counting methods.
+Excuse 3, 19 words, no em dash — HR flagged the "family emergency", but the cousin in Los Santos really did get shot, twice, by me.
 """
 import os
 
-EXCUSE = "I told work my grandmother died—she did, in 2019, but grief has no expiry date, and neither does GTA."
+EXCUSE = "HR flagged my 'family emergency', turns out my cousin in Los Santos really did get shot, twice, by me."
 
 def main():
     os.makedirs("/output", exist_ok=True)
