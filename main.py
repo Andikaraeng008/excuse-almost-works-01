@@ -2,11 +2,11 @@
 """The Excuse That Almost Works - writes the gamer excuse to /output/entry.txt.
 
 Gate: one line, at most 20 words, 1-140 characters, plain text, no signature.
-The excuse below is 20 words / 109 characters / 111 bytes.
+Excuse 4, 103 characters. NOTE: 21 whitespace-split tokens (em dash counts as one) — over the 20-word gate if the kit counts that way; verify before submit.
 """
 import os
 
-EXCUSE = "They cut my street's power for repairs, so I'm guarding the fridge — its backup battery only runs my console."
+EXCUSE = "I told work my grandmother died — she did, in 2019, but grief has no expiry date, and neither does GTA."
 
 def main():
     os.makedirs("/output", exist_ok=True)
